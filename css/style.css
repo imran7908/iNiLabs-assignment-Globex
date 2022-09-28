@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ---------------------Navbar Start--------------------- */
+.navbar {
+  display: flex;
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+  z-index: 10;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #272727;
+}
+
+.navbar > .globex__logo {
+  margin-left: 25px;
+  margin-right: 85px;
+  height: 35px;
+}
+
+.navlinks1 {
+  display: flex;
+  margin-right: 40px;
+}
+
+.navlinks1 > li {
+  margin-left: 30px;
+}
+
+.navbar .search {
+  margin-left: 170px;
+  width: 380px;
+  height: 40px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .search input {
+  border: none;
+  background: transparent;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 22px;
+  color: #848484;
+  margin-left: 20px;
+}
+
+.navbar .search img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.navbar .navlinks2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  gap: 20px;
+}
+
+.navbar .navlinks2 img {
+  width: 20px;
+  height: 20px;
+}
+/* ---------------------Navbar End--------------------- */
+
+/* ---------------------Wrapper Start--------------------- */
+.wrapper {
+  position: relative;
+  top: 55px;
+}
+
+.wrapper .title {
+  margin-left: 35px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 36px;
+  color: #272727;
+}
+/* ---------------------Wrapper End--------------------- */
+
+/* ---------------------Alert Start--------------------- */
+.alert__wrapper {
+  width: 100%;
+  height: 35px;
+  background-color: #f9faff;
+  padding-top: 4px;
+}
+
+.alert__wrapper span {
+  margin-left: 35%;
+}
+
+.alert__wrapper span a {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00398f;
+}
+
+.alert__wrapper img {
+  margin-left: 390px;
+  width: 15px;
+  height: 15px;
+  margin-top: 4px;
+}
+/* ---------------------Alert End--------------------- */
+
+/* ---------------------Hero Section Start--------------------- */
+.hero__wrapper {
+  display: flex;
+  max-height: 600px;
+}
+
+.hero__wrapper > img {
+  max-width: 54%;
+  width: 100%;
+  height: 600px;
+}
+
+.hero__wrapper .second__wrapper {
+  position: relative;
+}
+
+.hero__wrapper .second__wrapper > img {
+  height: 600px;
+}
+
+.hero__wrapper .prada__logo {
+  height: 55px;
+  width: 380px;
+  margin-bottom: 30px;
+}
+
+.hero__wrapper .text__wrapper {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+}
+
+.hero__wrapper .text__wrapper h1 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #565656;
+  text-align: center;
+}
+
+.hero__wrapper .text__wrapper button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #272727;
+  background: transparent;
+  padding: 3px 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+  border-top: 2px solid black;
+  margin-top: 20px;
+}
+/* ---------------------Hero Section End--------------------- */
+
+/* ---------------------Slide Circular Start--------------------- */
+.slide__circle__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 50px;
+}
+
+.slide__circle__wrapper img {
+  margin-right: 8px;
+  height: 7px;
+  width: 7px;
+}
+
+.slide__circle__wrapper .selected {
+  height: 10px;
+  width: 10px;
+}
+/* ---------------------Slide Circular End--------------------- */
+
+/* ---------------------Trending Section Start--------------------- */
+.trending__wrapper {
+  margin-left: 35px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.trending__wrapper .trending__item__wrapper {
+  margin-right: 28px;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.trending__wrapper .trending__item__wrapper .main {
+  width: 291px;
+  height: 215px;
+}
+
+.trending__wrapper .trending__item__wrapper .text__wrapper {
+  margin-left: 20px;
+}
+
+.trending__wrapper .trending__item__wrapper .text__wrapper h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #272727;
+}
+
+.trending__wrapper .trending__item__wrapper .text__wrapper .brand__name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #272727;
+}
+
+.trending__wrapper .trending__item__wrapper .text__wrapper .rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 20px;
+  color: #848484;
+}
+
+.trending__wrapper .trending__item__wrapper .text__wrapper .price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #272727;
+}
+
+.trending__wrapper .trending__item__wrapper .text__wrapper .previous__price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #848484;
+  margin-left: 10px;
+}
+
+.trending__wrapper .trending__item__wrapper .text__wrapper .discount {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0a8200;
+  margin-left: 10px;
+}
+
+/* ---------------------Trending Section End--------------------- */
+
+/* ---------------------Deals Section Start--------------------- */
+.deals__wrapper {
+  display: flex;
+  margin-left: 35px;
+  margin-bottom: 50px;
+}
+
+.deals__wrapper .deals__item__wrapper {
+  margin-right: 50px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.07);
+  border-radius: 10px;
+  position: relative;
+}
+
+.deals__wrapper .deals__item__wrapper .main__pic {
+  width: 345px;
+  height: 213px;
+}
+
+.deals__wrapper .deals__item__wrapper .text__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 18px;
+}
+
+.deals__wrapper .deals__item__wrapper .text__wrapper img {
+  width: 110px;
+  height: 45px;
+}
+
+.deals__wrapper .deals__item__wrapper .text__wrapper h2 {
+  font-weight: 550;
+  font-size: 30px;
+  line-height: 45px;
+  color: #272727;
+}
+
+.deals__wrapper .deals__item__wrapper .text__wrapper h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #272727;
+}
+/* ---------------------Deals Section End--------------------- */
+
+/* ---------------------Offers Section Start--------------------- */
+.offers__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.offers__wrapper .one {
+  width: 250px;
+  height: 315px;
+  margin-right: 40px;
+}
+
+.offers__wrapper .two {
+  width: 410px;
+  height: 420px;
+}
+
+.offers__wrapper .offers__second__wrapper {
+  position: relative;
+}
+
+.offers__wrapper .offers__second__text__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 23%;
+  top: 25%;
+  gap: 20px;
+}
+
+.offers__wrapper .offers__second__text__wrapper img {
+  width: 120px;
+  height: 50px;
+}
+
+.offers__wrapper .offers__second__text__wrapper h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #272727;
+}
+
+.offers__wrapper .offers__second__text__wrapper button {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  color: #272727;
+  background: transparent;
+  padding: 2px 25px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.offers__wrapper .last {
+  margin-left: 40px;
+}
+
+.offers__wrapper .last1 {
+  left: 10%;
+  top: 25%;
+}
+
+.last .last1 .last2 {
+  width: 200px;
+  height: 30px;
+}
+/* ---------------------Offers Section End--------------------- */
+
+/* ---------------------Forever Section Start--------------------- */
+.forever__wrapper {
+  color: white;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.forever__wrapper > img {
+  max-width: 100vw;
+  width: 100%;
+}
+
+.forever__wrapper .forever__text__wrapper img {
+  width: 380px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.forever__wrapper .forever__text__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.forever__wrapper .forever__text__wrapper h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.forever__wrapper button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  background: transparent;
+  padding: 2px 25px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-top: 20px;
+  color: white;
+}
+
+/* ---------------------Forever Section End--------------------- */
+
+/* ---------------------Shop Section Start--------------------- */
+.shop__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+  gap: 18px;
+}
+
+.shop__wrapper a {
+  color: white;
+}
+
+.shop__wrapper .shop__item__wrapper {
+  position: relative;
+}
+
+.shop__wrapper .shop__item__wrapper .shop__text__wrapper {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+
+.shop__wrapper .shop__item__wrapper > img {
+  width: 420px;
+  height: 485px;
+}
+
+.shop__wrapper .middle__section .shop__item__wrapper > img {
+  height: 235px;
+}
+
+.shop__wrapper .middle__section {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.shop__wrapper .last__section {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.shop__wrapper .last__section .shop__item__wrapper > img {
+  height: 235px;
+}
+
+.shop__wrapper .last__section .last__bottom__section {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+}
+
+.shop__wrapper
+  .last__section
+  .last__bottom__section
+  .shop__item__wrapper
+  > img {
+  width: 202px;
+}
+
+.shop__wrapper .shop__text__wrapper img {
+  margin-left: 5px;
+  width: 10px;
+}
+
+/* ---------------------Shop Section End--------------------- */
+
+/* ---------------------Customer Section Start--------------------- */
+.customer__wrapper {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.customer__wrapper .reviews {
+  display: flex;
+}
+
+.customer__wrapper .reviews img {
+  height: 350px;
+}
+
+.customer__wrapper .reviews .half {
+  width: 343px;
+}
+
+.customer__wrapper .left__circle__black,
+.right__circle__black {
+  width: 40px;
+  height: 40px;
+}
+
+.customer__wrapper .left__circle__black {
+  position: absolute;
+  top: 45%;
+  left: 1%;
+}
+
+.customer__wrapper .left__arrow {
+  position: absolute;
+  top: 48%;
+  left: 2%;
+  width: 10px;
+}
+
+.customer__wrapper .right__circle__black {
+  position: absolute;
+  top: 45%;
+  right: 1%;
+}
+
+.customer__wrapper .right__arrow {
+  position: absolute;
+  top: 48%;
+  right: 2%;
+  width: 10px;
+}
+/* ---------------------Customer Section End--------------------- */
+
+/* ---------------------Footer Section Start--------------------- */
+.footer__wrapper {
+  background: #00071b;
+  color: white;
+}
+
+.footer__wrapper a {
+  color: white;
+}
+
+.footer__wrapper .logo {
+  width: 50px;
+  height: 50px;
+}
+
+.footer__wrapper .logo__and__name {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 35px;
+}
+
+.footer__wrapper .logo__and__name h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+}
+
+.footer__wrapper .footer__top__wrapper {
+  display: flex;
+  gap: 80px;
+  margin-left: 135px;
+  margin-bottom: 50px;
+}
+
+.footer__wrapper .footer__top__wrapper .categories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__wrapper .categories h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer__wrapper .categories a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer__wrapper .categories .mail__wrapper {
+  width: 320px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 2px;
+  position: relative;
+}
+
+.footer__wrapper .categories .mail__wrapper .first {
+  position: absolute;
+  width: 15px;
+  height: 12px;
+  top: 7px;
+  left: 10px;
+}
+
+.footer__wrapper .categories .mail__wrapper .second {
+  position: absolute;
+  width: 15px;
+  height: 7px;
+  top: 7px;
+  left: 10px;
+}
+
+.footer__wrapper .categories .mail__wrapper input {
+  position: absolute;
+  top: 2px;
+  left: 50px;
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ababab;
+}
+
+.footer__bottom__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 150px;
+}
+
+.footer__bottom__wrapper .social__links {
+  display: flex;
+  gap: 25px;
+}
+/* ---------------------Footer Section End--------------------- */
